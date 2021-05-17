@@ -1,0 +1,389 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Api\\Vueling.Test.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Api\\Vueling.Test.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Api\\Vueling.Test.Api.csproj",
+        "projectName": "Vueling.Test.Api",
+        "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Api\\Vueling.Test.Api.csproj",
+        "packagesPath": "C:\\Users\\30JTNC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\30JTNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Data\\Vueling.Test.Data.csproj": {
+                "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Data\\Vueling.Test.Data.csproj"
+              },
+              "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Entities\\Vueling.Test.Entities.csproj": {
+                "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Entities\\Vueling.Test.Entities.csproj"
+              },
+              "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Services\\Vueling.Test.Services.csproj": {
+                "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Services\\Vueling.Test.Services.csproj"
+              },
+              "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.WebClient\\Vueling.Test.Client.csproj": {
+                "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.WebClient\\Vueling.Test.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Data\\Vueling.Test.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Data\\Vueling.Test.Data.csproj",
+        "projectName": "Vueling.Test.Data",
+        "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Data\\Vueling.Test.Data.csproj",
+        "packagesPath": "C:\\Users\\30JTNC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\30JTNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Entities\\Vueling.Test.Entities.csproj": {
+                "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Entities\\Vueling.Test.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Entities\\Vueling.Test.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Entities\\Vueling.Test.Entities.csproj",
+        "projectName": "Vueling.Test.Entities",
+        "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Entities\\Vueling.Test.Entities.csproj",
+        "packagesPath": "C:\\Users\\30JTNC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\30JTNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Repository\\Vueling.Test.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Repository\\Vueling.Test.Repository.csproj",
+        "projectName": "Vueling.Test.Repository",
+        "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Repository\\Vueling.Test.Repository.csproj",
+        "packagesPath": "C:\\Users\\30JTNC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\30JTNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Data\\Vueling.Test.Data.csproj": {
+                "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Data\\Vueling.Test.Data.csproj"
+              },
+              "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Entities\\Vueling.Test.Entities.csproj": {
+                "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Entities\\Vueling.Test.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Services\\Vueling.Test.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Services\\Vueling.Test.Services.csproj",
+        "projectName": "Vueling.Test.Services",
+        "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Services\\Vueling.Test.Services.csproj",
+        "packagesPath": "C:\\Users\\30JTNC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\30JTNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Entities\\Vueling.Test.Entities.csproj": {
+                "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Entities\\Vueling.Test.Entities.csproj"
+              },
+              "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Repository\\Vueling.Test.Repository.csproj": {
+                "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.Repository\\Vueling.Test.Repository.csproj"
+              },
+              "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.WebClient\\Vueling.Test.Client.csproj": {
+                "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.WebClient\\Vueling.Test.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.WebClient\\Vueling.Test.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.WebClient\\Vueling.Test.Client.csproj",
+        "projectName": "Vueling.Test.Client",
+        "projectPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.WebClient\\Vueling.Test.Client.csproj",
+        "packagesPath": "C:\\Users\\30JTNC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.WebClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\30JTNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

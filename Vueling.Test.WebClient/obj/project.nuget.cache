@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sjKc9xWHZv2q+ocPxxZXq80DAWlLSQ8qElWZiypaIWTQfX7VRfVxwQUknugi+kLl5Nxu9WDBXDyfVEITfVv3eQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\30JTNC\\Documents\\GitHub\\julian_londoo_devia\\Vueling.Test\\Vueling.Test\\Vueling.Test.WebClient\\Vueling.Test.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\30JTNC\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\30JTNC\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vueling.Test.Entities\Vueling.Test.Entities.csproj" />
+    <ProjectReference Include="..\Vueling.Test.Repository\Vueling.Test.Repository.csproj" />
+    <ProjectReference Include="..\Vueling.Test.WebClient\Vueling.Test.Client.csproj" />
+  </ItemGroup>
+
+</Project>
